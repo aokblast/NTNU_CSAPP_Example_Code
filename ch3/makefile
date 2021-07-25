@@ -5,3 +5,6 @@ hello_fp:
 
 hello_int:
 	gcc -S hello_int.c
+
+move_fp:
+	gcc -S move_fp.c
