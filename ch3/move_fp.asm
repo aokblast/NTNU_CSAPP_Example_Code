@@ -6,9 +6,13 @@ segment .text
     global asm_main
 
 asm_main:
+    mov rsi, float1
+    call print 
+    ret
+
+print:
     mov rax, 0x1
     mov rdi, 0x1
-    mov rsi, float1
     mov rdx, 0x8
     syscall
     ret
