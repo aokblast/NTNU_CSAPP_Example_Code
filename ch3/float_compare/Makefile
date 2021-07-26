@@ -6,7 +6,7 @@ float_cmp: float_cmp.o driver.o
 
 driver.o: driver.c
 
-%.o: %.asm
+%.o: %.s
 	as $^ -o $@
 
 clean:
