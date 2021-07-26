@@ -4,6 +4,7 @@
 # Debugger files
 vgcore.*
 .gdb_history
+peda-session-*
 
 ## Linux
 *~
